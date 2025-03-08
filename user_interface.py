@@ -62,7 +62,7 @@ with col1:
         }
         
         # Make API request
-        res = requests.post(url="http://127.0.0.1:8000/", json=input_features)
+        res = requests.post(url="https://penguin-for-deployment.onrender.com/", json=input_features)
         
         # Display prediction results in the right column
         with col2:
